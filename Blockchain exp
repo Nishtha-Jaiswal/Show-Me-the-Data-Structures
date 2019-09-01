@@ -1,0 +1,13 @@
+Blockchain
+
+Data structure used:
+linked list- as each node can store multiple attributes
+
+Operation:
+Each node has an attribute that stores the hash of the previous node, this serves the main linking condition for blocks in a blockchain
+
+Time Complexity:
+for n number of blocks, as we have to traverse to the end of the linked list, so time complexity is O(n)
+
+Space Complexity:
+for n blocks, space complexity is O(n)  
