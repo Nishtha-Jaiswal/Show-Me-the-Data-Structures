@@ -1,6 +1,9 @@
 # Show-Me-the-Data-Structures
 The questions cover a variety of topics related to the data structures
+
+
 Problem-1 LRU Cache
+
 Least Recently Used Cache
 We have briefly discussed caching as part of a practice problem while studying hash maps.
 
@@ -21,7 +24,9 @@ All operations must take O(1) time.
 
 For the current problem, you can consider the size of cache = 5.
 
+
 Problem-2 File Recursion
+
 Finding Files
 For this problem, the goal is to write code for finding all files under a directory (and all directories beneath it) that end with ".c"
 
@@ -54,7 +59,9 @@ os.listdir(directory)
 
 os.path.join(...)
 
+
 Problem-3 Huffman Coding
+
 Huffman Coding
 A Huffman code is a type of optimal prefix code that is used for compressing data. The Huffman encoding and decoding schema is also lossless, meaning that when compressing the data to make it smaller, there is no loss of information.
 
@@ -72,17 +79,23 @@ Encode the text into its compressed form.
 Decode the text from its compressed form.
 You then will need to create encoding, decoding, and sizing schemas.
 
+
 Problem-4 Active Directory
+
 Active Directory
 In Windows Active Directory, a group can consist of user(s) and group(s) themselves. We can construct this hierarchy as such. Where User is represented by str representing their ids.
 
+
 Problem-5 Blockchain
+
 Blockchain
 A Blockchain is a sequential chain of records, similar to a linked list. Each block contains some information and how it is connected related to the other blocks in the chain. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data. For our blockchain we will be using a SHA-256 hash, the Greenwich Mean Time when the block was created, and text strings as the data.
 
 Use your knowledge of linked lists and hashing to create a blockchain implementation.
 
+
 Problem-6 Union and Intersection
+
 Union and Intersection of Two Linked Lists
 Your task for this problem is to fill out the union and intersection functions. The union of two sets A and B is the set of elements which are in A, in B, or in both A and B. The intersection of two sets A and B, denoted by A ∩ B, is the set of all objects that are members of both the sets A and B.
 
