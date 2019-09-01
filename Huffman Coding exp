@@ -1,0 +1,31 @@
+Huffman Coding
+
+Data structure used:
+
+Tree (list of tuples)-The list representing the subtree has the same structure as that of the tree (implemente binary tree)
+
+Operation:
+use the pseudocode mentioned in the question-
+Take a string and determine the relevant frequencies of the characters.
+Build and sort a list of tuples from lowest to highest frequencies.
+Build the Huffman Tree by assigning a binary code to each letter, using shorter codes for the more frequent letters. (This is the heart of the Huffman algorithm.)
+Trim the Huffman Tree (remove the frequencies from the previously built tree).
+Encode the text into its compressed form.
+Decode the text from its compressed form.
+
+Time Complexity:
+to iterate from root to leaf in a binary tree (to assign codes) takes O(n(log(n))) time
+
+Space Complexity:
+generally there is a reducion of about 40% to 60% in the sixze of encoded data. So for data size n, space complexity in avg case can be O(n/2)
+
+SOURCES USED:
+1)learned huffman coding in current graduation year of college
+2)https://www.kth.se/social/upload/5273e165f27654771b08a1bf/huffman.pdf
+3)https://stackoverflow.com/questions/39495924/how-to-convert-python-list-of-tuples-into-tree
+4)https://www.geeksforgeeks.org/python-program-to-sort-a-list-of-tuples-by-second-item/
+5)http://pythonfiddle.com/huffman-coding-text/
+ 
+
+
+
