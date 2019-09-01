@@ -1,0 +1,16 @@
+File Recursion
+
+Data structure used:
+
+Tree (using list of lists)- The list representing the subtree has the same structure as that of the tree, so recursion becomes easy
+
+Operation:
+The list of subdirectories and files in the root directory is made(listOfFiles). Then full path is created for each entry in the listOfFiles, then each path is checked if it is a directory, if yes then this function is called recursively with the new path until a file is found . Once a file is found the it is directly appended with the fullPath, then the required extention is checked.
+
+Time complexity:
+Let the size of listOfFiles is n, in worst case if each entry is a subdirectory then in that case the function is called n times. 
+time complexity is O(n)
+
+Space Complexity:
+Let maximum depth of a list (listOfFiles) is m and the function is called n times then the space complexity is O(mn).
+
