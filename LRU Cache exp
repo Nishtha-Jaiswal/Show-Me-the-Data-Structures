@@ -1,0 +1,16 @@
+LRU Cache
+
+Data structure used:
+
+hash maps- to store the key(page number):value(address of nodes) so that the get and set operations take O(1) time.
+queue (using doubly linked list)- to simultaneously keep track of the front and rear and also the forward and backward traversal becomes easy in O(1) time
+
+Opreation:
+As we enter data in the cache, the latest value is at the front end and the least recently used value gets shifted to the rear end.When the cache size is full and a new node has to be entered then we dequeue the lru node from the rear end and enqueue the incoming one in the front end. If the value being searched for already exists in the cache (cache hit) then the node is shifted to the front end of the queue. If the value being searched is not present in the cache then -1 is returned (cache miss).
+
+Time Complexity:
+As we are directly getting the address of the node to be enqueued/dequeued so we don't have to iterate over the queue.
+time complexity is O(1)
+
+Space Complexity:
+Let the size of the cache is n. So the spasce complexity is O(n) 
