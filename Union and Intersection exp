@@ -1,0 +1,15 @@
+Union and Intersection
+
+Data structure used:
+
+linked list- mentioned in the question
+
+Operation:
+For union- the result linked list is appended with the values of both the lists then the duplicate entries are removed 
+For intersection- the values are entered in the result linked list only if it matches in both the lists, again the result linked list is checked for duplicate value to be removed (as individual linked lists also contains repeated values)
+
+Time Complexity:
+let both the linked lists have n nodes so due to nesting of while loops, time complexity for union is O(n) and for intersection is O(n^2)
+
+Space Complexity:
+let all the values in both the lists are unique so the maximum space is taken by the union of both the linked lists, so if the size of both the list is maximum and equal to n , so space complexity is O(2n)
